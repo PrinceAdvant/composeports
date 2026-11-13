@@ -1,0 +1,15 @@
+[package]
+name = "composeports"
+version = "0.1.0"
+edition = "2021"
+description = "List the host ports published by Docker Compose files and catch conflicts before docker compose up fails."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/PrinceAdvant/composeports"
+homepage = "https://peon.sh/blogs/how-to-run-multiple-apps-on-one-vps"
+documentation = "https://docs.rs/composeports"
+keywords = ["docker", "compose", "ports", "devops", "cli"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
+serde_yaml = "0.9"
